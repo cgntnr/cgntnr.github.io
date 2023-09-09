@@ -4,6 +4,7 @@ favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
+ruby: 2.7.4
 
 
 
@@ -31,7 +32,7 @@ linkedin_username: çağın-tanır-a6b933142
 additional_links:
 - title: Resume of Çağın Tanır
   icon: fas fa-address-book
-  url: http:resume.pdf # not working
+  url: https://cgntnr.github.io/resume.pdf
 
 
 # About Section
