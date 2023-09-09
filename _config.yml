@@ -1,0 +1,144 @@
+# Site
+repository: cgntnr/website
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+
+
+
+# Personal info
+name: Çağın Tanır
+title: Master’s Student at ETHZ
+email: me@cagintanir.com
+# website: www.github.com/cgntnr/website
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  cgntnr
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+linkedin_username: çağın-tanır-a6b933142
+
+
+# Additional icon links
+additional_links:
+- title: Resume of Çağın Tanır
+  icon: fas fa-address-book
+  url: http:resume.pdf # not working
+
+
+# About Section
+about_title: "About me"
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Master’s student majoring in cybersecurity. Currently writing Master’s thesis and looking for
+  post‑graduation career opportunities.
+
+content:
+  - title: Education
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: M.Sc. Cybersecurity
+        caption: Sep. 2021 ‑ Feb. 2024
+        #sub_title: M.Sc. Cybersecurity
+        # quote: >
+          <strong>ETHZ (Eidgenössische Technische Hochschule Zürich) ‑ EPFL</strong>  
+          • Security focused lectures on software, network, and systems. Minor in Data Management Systems.  
+      - layout: left
+        title: B.Sc. Computer Science and Engineering
+        caption: Sep. 2017 ‑ Jul. 2021
+        #sub_title: B.Sc. Computer Science and Engineering
+        description: | 
+          <strong>EPFL (Ecole polytechnique fédérale de Lausanne)</strong>  
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Working Student, IoT & Cloud
+        #sub_title: Working Student, IoT & Cloud
+        caption: Oct. 2022 ‑ Sep. 2023
+        description: | # this will include new lines to allow paragraphs
+          <strong>Siemens Smart Infrastructure  </strong>  
+            • Managed the security of cloud deployments at the Pre‑development Team.  
+            • Developed a Building Automation Tool prototype, involving graph database, backend, REST, and frontend work.  
+            • Experience with AWS, network infrastructure, server and certificate management, containerized deployments. 
+  
+  - title: Research
+    layout: list
+    content: 
+      - layout: left
+        title: Master's Thesis
+        sub_title: ETHZ
+        caption: Sep. 2023 ‑ Feb. 2024
+        description: | # this will include new lines to allow paragraphs
+          <strong>Unleashing the Full Amplification Potential of DNSSEC</strong>  
+      - layout: left
+        title: Master Semester Project
+        caption: Sep. 2022 ‑ Mar. 2023
+        sub_title: ETHZ
+        description: | 
+          <strong>Using UWB Ranging to Secure Contactless Payments </strong>  
+          • Proposal to enhance tokenisation payment protocol with UWB secure ranging to prevent relay attacks.
+      - layout: left
+        title: Bachelor Semester Project
+        caption: Feb. 2021 ‑ Jul. 2021
+        sub_title: EPFL
+        description: | 
+          <strong>TestGen API Collection and Extraction </strong>   
+          • API extraction of Debian libraries leveraging source files, to be used in TestGen project in HexHive Lab, EPFL.
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Developer/Member
+        caption: Feb. 2021 ‑ Jun. 2021
+        #sub_title: M.Sc. Cybersecurity
+        description: | # this will include new lines to allow paragraphs
+          <strong>Blindly App </strong>   
+          • Wrote a fully functional Android app in Kotlin in a team of 6 students for Software Development Project Course at EPFL.
+      - layout: left
+        title: Developer
+        caption: Feb. 2021 ‑ Pres.
+        #sub_title: B.Sc. Computer Science and Engineering
+        description: | 
+          <strong>AEDAG Alumni Association Website </strong>   
+          • Built and still maintaining the website for Galatasaray High School Alumni Association in Switzerland.
+      - layout: left
+        title:  Developer/Member
+        caption: Sep. 2020 ‑ Dec. 2020
+        #sub_title: B.Sc. Computer Science and Engineering
+        description: | 
+          <strong>Amy Language Compiler  </strong>     
+          • Implementing a Scala‑like compiler in Computer Language Processing course at EPFL.
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <strong>Programming</strong>:   Python, C/C++, Java, Scala, Kotlin, HTML, CSS, Typescript, SQL, LaTeX, Version Control Systems  
+      <strong>Languages</strong>:   English & French (Full Professional Proficiency) , German (Limited Working Proficiency), Turkish (Native)
+
+
+# Footer
+footer_show_references: true
+references_title: © Copyright 2023. All rights reserved.
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
