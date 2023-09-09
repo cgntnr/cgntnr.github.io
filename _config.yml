@@ -50,6 +50,7 @@ content:
         caption: Sep. 2021 ‑ Feb. 2024
         #sub_title: M.Sc. Cybersecurity
         # quote: >
+        description: | 
           <strong>ETHZ (Eidgenössische Technische Hochschule Zürich) ‑ EPFL</strong>  
           • Security focused lectures on software, network, and systems. Minor in Data Management Systems.  
       - layout: left
