@@ -60,6 +60,7 @@ content:
         #sub_title: B.Sc. Computer Science and Engineering
         description: | 
           <strong>EPFL (Ecole polytechnique fédérale de Lausanne)</strong>  
+          • Notable Courses: Computer security, Computer networks, Software engineering, System oriented programming, Operating systems
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
