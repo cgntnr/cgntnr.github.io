@@ -84,7 +84,7 @@ content:
         caption: Sep. 2023 ‑ Apr. 2024
         description: | # this will include new lines to allow paragraphs
           <strong>Unleashing the Full Amplification Potential of DNSSEC</strong>  
-          • Analysis of DNSSEC vulnerabilities interacting with application‑layer DoS attacks.
+          • Analysis of DNSSEC vulnerabilities interacting with application‑layer DoS attacks. 
           • Creating a testbed to evaluate the DoS risk of major open source DNS resolvers.
       - layout: left
         title: Master Semester Project
@@ -136,7 +136,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: © Copyright 2023. All rights reserved.
+references_title: © Copyright 2024. All rights reserved.
 
 # Build settings
 remote_theme: sproogen/resume-theme
