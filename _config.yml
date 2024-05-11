@@ -39,8 +39,8 @@ additional_links:
 about_title: "About me"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Master’s student majoring in cybersecurity. Currently writing Master’s thesis and looking for
-  post‑graduation career opportunities.
+  Currently finishing my Master’s in Cybersecurity at ETHZ and exploring opportunities where I can
+  have an impact and keep learning.
 
 content:
   - title: Education
@@ -48,7 +48,7 @@ content:
     content:
       - layout: left
         title: M.Sc. Cybersecurity
-        caption: Sep. 2021 ‑ Feb. 2024
+        caption: Sep. 2021 ‑ Apr. 2024
         #sub_title: M.Sc. Cybersecurity
         # quote: >
         description: | 
@@ -81,9 +81,11 @@ content:
       - layout: left
         title: Master's Thesis
         sub_title: ETHZ
-        caption: Sep. 2023 ‑ Feb. 2024
+        caption: Sep. 2023 ‑ Apr. 2024
         description: | # this will include new lines to allow paragraphs
           <strong>Unleashing the Full Amplification Potential of DNSSEC</strong>  
+          • Analysis of DNSSEC vulnerabilities interacting with application‑layer DoS attacks.
+          • Creating a testbed to evaluate the DoS risk of major open source DNS resolvers.
       - layout: left
         title: Master Semester Project
         caption: Sep. 2022 ‑ Mar. 2023
@@ -129,7 +131,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       <strong>Programming</strong>:   Python, C/C++, Java, Scala, Kotlin, HTML, CSS, Typescript, SQL, LaTeX, Version Control Systems  
-      <strong>Languages</strong>:   English & French (Full Professional Proficiency) , German (Limited Working Proficiency), Turkish (Native)
+      <strong>Languages</strong>:   English & French (Advanced) , German (Upper-Intermediate), Turkish (Native)
 
 
 # Footer
