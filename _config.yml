@@ -70,7 +70,7 @@ content:
         caption: Aug. 2024 ‑ Pres.
         description: | # this will include new lines to allow paragraphs
           <strong>SBB CFF FFS  </strong>  
-            • Developing and maintaining cloud deployments (Cloudflare, AWS, Azure etc.).
+            • Developing and maintaining cloud deployments (Cloudflare, AWS, Azure etc.).  
             • Advising internal partners on network and security solutions, with a focus on Web Application Firewalls.
 
       - layout: left
@@ -144,7 +144,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: © Copyright 2024. All rights reserved.
+references_title: © Copyright 2025. All rights reserved.
 
 # Build settings
 remote_theme: sproogen/resume-theme
