@@ -11,7 +11,7 @@ ruby: 2.7.4
 
 # Personal info
 name: Çağın Tanır
-title: MSc ETH EPF CS
+title: MSc ETH EPF CS - Application Security Engineer @SBB
 email: me@cagintanir.com
 # website: www.github.com/cgntnr/website
 
@@ -39,8 +39,7 @@ additional_links:
 about_title: "About me"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Currently finishing my Master’s in Cybersecurity at ETHZ and exploring opportunities where I can
-  have an impact and keep learning.
+  Working at SBB CFF FFS as Application Security Engineer, focusing on Web Application Firewalls.
 
 content:
   - title: Education
@@ -66,6 +65,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Application Security Engineer
+        #sub_title: Working Student, IoT & Cloud
+        caption: Aug. 2024 ‑ Pres.
+        description: | # this will include new lines to allow paragraphs
+          <strong>SBB CFF FFS  </strong>  
+            • Developing and maintaining cloud deployments (Cloudflare, AWS, Azure etc.).
+            • Advising internal partners on network and security solutions, with a focus on Web Application Firewalls.
+
+      - layout: left
         title: Working Student, IoT & Cloud
         #sub_title: Working Student, IoT & Cloud
         caption: Oct. 2022 ‑ Sep. 2023
@@ -74,7 +82,7 @@ content:
             • Managed the security of cloud deployments at the Pre‑development Team.  
             • Developed a Building Automation Tool prototype, involving graph database, backend, REST, and frontend work.  
             • Experience with AWS, network infrastructure, server and certificate management, containerized deployments. 
-  
+
   - title: Research
     layout: list
     content: 
